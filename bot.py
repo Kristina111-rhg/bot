@@ -152,7 +152,7 @@ def build_command_buttons():
     keyboard = [
         [InlineKeyboardButton("Календарь событий", callback_data='calendar')],
         [InlineKeyboardButton("Чат Консорциума", callback_data='chat')],
-        [InlineKeyboardButton("Узнать информацию о компании", callback_data='company_info')]
+        [InlineKeyboardButton("Узнать информацию о членах Консорциума", callback_data='company_info')]
     ]
     return InlineKeyboardMarkup(keyboard)
 
